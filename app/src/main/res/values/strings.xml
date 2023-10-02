@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Denis</string>
+    <string name="nameEditText">Nama</string>
+    <string name="buttonTombol">Button</string>
+    <string name="buttonTextView">Alo %1$s</string>
+    <string-array name="names">
+        <item>Denis</item>
+        <item>Alfarisi</item>
+    </string-array>
+</resources>
