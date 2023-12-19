@@ -1,19 +1,15 @@
 package com.denis.portalberita
 
 import android.content.Intent
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 
-class beranda_user : AppCompatActivity() {
+class kategori_crime : AppCompatActivity() {
 
     private lateinit var ImageView: ImageView
     private lateinit var ImageView2: ImageView
-    private lateinit var ImageView3: ImageView
-    private lateinit var ImageView4: ImageView
-    private lateinit var ImageView5: ImageView
     private lateinit var TextView: TextView
     private lateinit var Textview2: TextView
     private lateinit var TextView3: TextView
@@ -22,9 +18,6 @@ class beranda_user : AppCompatActivity() {
     private fun initComponents(){
         ImageView =findViewById(R.id.imageView7)
         ImageView2 =findViewById(R.id.imageView5)
-        ImageView3 = findViewById(R.id.imageView2)
-        ImageView4 = findViewById(R.id.imageView)
-        ImageView5 = findViewById(R.id.imageView3)
         TextView = findViewById(R.id.textView3)
         Textview2 = findViewById(R.id.textView4)
         TextView3 =findViewById(R.id.textView5)
@@ -32,53 +25,38 @@ class beranda_user : AppCompatActivity() {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.beranda)
+        setContentView(R.layout.kategori_crime)
 
         initComponents()
         val imageClick = ImageView
         val imageClick2 = ImageView2
-        val imageClick3 = ImageView3
-        val imageClick4 = ImageView4
-        val imageClick5 = ImageView5
         val textClick = TextView
         val textClick2 = Textview2
         val textClick3 = TextView3
         val textClick4 = TextView4
 
-        imageClick3.setOnClickListener{
-            val intent = Intent(this,kategori_sports::class.java)
-            startActivity(intent)
-        }
-        imageClick4.setOnClickListener{
-            val intent = Intent(this,kategori_ekonomi::class.java)
-            startActivity(intent)
-        }
-        imageClick5.setOnClickListener{
-            val intent = Intent(this,kategori_crime::class.java)
-            startActivity(intent)
-        }
         imageClick.setOnClickListener{
-            val intent = Intent(this,news_page_sports2::class.java)
+            val intent = Intent(this,crime2::class.java)
             startActivity(intent)
         }
         imageClick2.setOnClickListener{
-            val intent = Intent(this,news_page_sports1::class.java)
+            val intent = Intent(this,crime1::class.java)
             startActivity(intent)
         }
         textClick.setOnClickListener{
-            val intent = Intent(this,news_page_sports1::class.java)
+            val intent = Intent(this,crime1::class.java)
             startActivity(intent)
         }
         textClick2.setOnClickListener{
-            val intent = Intent(this,news_page_sports1::class.java)
+            val intent = Intent(this,crime1::class.java)
             startActivity(intent)
         }
         textClick3.setOnClickListener{
-            val intent = Intent(this,news_page_sports2::class.java)
+            val intent = Intent(this,crime2::class.java)
             startActivity(intent)
         }
         textClick4.setOnClickListener{
-            val intent = Intent(this,news_page_sports2::class.java)
+            val intent = Intent(this,crime2::class.java)
             startActivity(intent)
         }
     }

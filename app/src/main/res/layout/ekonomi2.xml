@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="108dp"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/judulberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="China’s economy has a ‘steep hill to climb’ despite positive export surprise, HSBC says"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/coversports1"
+            android:layout_width="270dp"
+            android:layout_height="118dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/econnomics2"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/isiberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Chinese economy still has a “steep hill to climb” despite a surprise pickup in exports and is unlikely to be bolstered by further fiscal stimulus, according to HSBC
+
+’s Chief Asia Economist Frederic Neumann.
+
+Exports in U.S. dollar terms rose by 0.5% year-on-year in November, defying expectations for a 1.1% decline among analysts polled by Reuters. However, imports fell in U.S. dollar terms by 0.6% over the 12 months, well below a consensus forecast of a 3.3% increase.
+
+Yet economists have noted that external demand is still relatively weak, and that policy support from Beijing that focuses on the supply side will struggle to make inroads into reigniting domestic demand to compensate.
+
+Neumann told CNBC’s “Squawk Box Europe” on Thursday that the Chinese economy remains weak, and that the positive export figure, released earlier Thursday, should be taken with a pinch of salt.
+
+“Some of the Asian numbers have looked better on the trade front — Korea as well, Taiwan, for example — but this is a lot of inventory adjustment coming through the global system,” he noted.
+
+“There’s not going to be follow-through on the export side in the next few months, and of course on the domestic side with imports contracting again, that just highlights that there is still a steep hill to climb when it comes to generating that accelerating growth in mainland China.”This global inventory adjustment, particularly among U.S. importers, combined with base effects pushing up the numbers, means the positive export surprise does not necessarily mean exports are accelerating meaningfully, he suggested.
+
+Demand for Chinese goods has fallen this year as global growth slows.
+“All the forward-looking indicators — new orders for electronics, for example, new export orders — they all suggest that there is not a pick-up in demand and in fact, it’s more likely the U.S. economy will slow into next year, European demand looks still wobbly and so does the rest of EM [emerging markets], so where is that demand going to come from for a sustained export cycle?” Neumann said.
+
+“That’s really a bit of a headache then for Asian policymakers including in mainland China, because they need to rely on domestic demand to really get the engine going again, and for that we haven’t seen evidence of that happening just yet.”
+
+The value of China’s exports to the U.S. rose by 7% in November from a year ago, according to CNBC calculations of official data. In contrast, China’s exports to the European Union fell by 14.5% year-on-year in November and those to the Association of Southeast Asian Nations fell by 7%, the analysis showed.
+
+The government has tapped fiscal stimulus to shore up its ailing post-pandemic recovery and contain its spiraling debt crisis among the country’s property developers, and the International Monetary Fund forecasts GDP growth of 5.4% this year, and 4.6% in 2024.
+"
+            android:textSize="10dp"
+            tools:ignore="MissingConstraints"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

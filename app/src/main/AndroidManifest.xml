@@ -53,6 +53,60 @@
                 <action android:name="android.intent.action.DEFAULT"/>
             </intent-filter>
         </activity>
+        <activity android:name=".news_page_sports1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".news_page_sports2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".kategori_sports"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".kategori_ekonomi"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ekonomi1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ekonomi2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".kategori_crime"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".crime1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".crime2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

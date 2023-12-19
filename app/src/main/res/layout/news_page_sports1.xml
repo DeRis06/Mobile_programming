@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="108dp"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/judulberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="Max won his third world tittles"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/coversports1"
+            android:layout_width="270dp"
+            android:layout_height="118dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/max"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/isiberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At just 26 years of age, Max Verstappen has become world champion for a third time. His 2023 season has been totally dominant with a record-breaking ten consecutive Grand Prix victories and over 400 points—more than any other rival team.
+
+Born on September 30, 1997, in the Belgian town of Hasselt, close to the Dutch border, Max Emilian Verstappen was perhaps always destined to be a Formula1 driver. Between 1994 and 2003 his father Jos Verstappen competed in over 100 F1 races, with two podium finishes.
+
+In addition to his father’s genes, Max also has his mother to thank, as she too was talented behind the wheel. Sophie Kumpenwasago-kartstar, who raced alongside the future F1 world champion Jenson Button and climbed through the ranks to achieve top honors. Racing was therefore in Max’s DNA and he was soon setting go-kart tracks a light himself with his raw talent.
+
+After winning the world karting championship in 2013, Max did one season of single-seater car racing in Formula 3 before attracting the attention of Red Bull. In 2015 they gave Verstappen his Grand Prix debut at their sister team Toro Rosso–today known as Alpha Tauri.
+
+Verstappen became the youngest-ever starter of a Formula 1 race, at just 17 years, five months and 15 days. Despite retiring from the 2015 Australian Grand Prix with an engine problem, at his next race in Malaysia, he qualified sixth on the grid and scored points with seventh place.
+
+Five races into the following season, Red Bull made a dramatic decision, deciding to replace Daniil Kvyat with Verstappen for the 2016 Spanish Grand Prix. It was an inspired move. Now in a car capable of winning a race, Max did exactly that on his debut for the Red Bull Racing team. It was only the 24th race of the Dutchman’s career and remarkably he sprayed the champagne on the top step of the Barcelona podium as the youngest winner of a Grand Prix at 18years, seven months and 15 days. He eclipsed the previous record held by Sebastian Vettel by over two and a half years.
+
+After a period of Mercedes domination in the sport, Verstappen had his best chance of winning the drivers’ world champion in 2021. In an epic season when he came to blows a number of times with reigning title-holder Lewis Hamilton, Max finally won his first crown after a controversial last-lap decider at the Abu Dhabi finale.
+
+With a change in the regulations for 2022, Red Bull got the jump on the opposition and Verstappen has collected his third consecutive championship. With age on his side, he could yet go onto break all the records to be the most successful of all time."
+            android:textSize="12dp"
+            tools:ignore="MissingConstraints"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

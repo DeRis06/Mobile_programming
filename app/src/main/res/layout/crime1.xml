@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="108dp"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/judulberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="Three Men Get Life Sentence for Murdering Victims with Poisoned Coffee"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/coversports1"
+            android:layout_width="270dp"
+            android:layout_height="118dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/crime1"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/isiberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bekasi. A court in Bekasi, West Java, opted for life imprisonment rather than the death penalty for three convicted murderers who poisoned at least three people with tainted coffee.
+
+The defendants, Wowon Erawan, 60, Solihin, also known as Duloh, 63, and Dede Solehudin, 35, were arrested following the deaths of three individuals due to poisoning at a boarding house in Bekasi, just east of Jakarta, on January 12.
+
+The victims were identified as Wowon's wife, Ai Maimunah, 40, and her two sons from a previous marriage, Ridwan Abdul Muiz, 23, and Muhammad Riswandi, 17. They fell critically ill in Bekasi and subsequently died in a hospital on January 12, prompting a murder investigation against the three men.
+
+Presiding Judge Suparna said that the fact that the trio had pleaded guilty served as a mitigating factor in the sentencing.
+
+The three defendants have been sentenced to life imprisonment and must remain in detention Suparna declared during the sentencing hearing at the Bekasi District Court. The prosecution and defense teams have seven days to respond to the verdict.
+
+        Sugijati, an attorney representing the three defendants, expressed acceptance of the verdict.Premeditated murder is a very serious crime, and a life sentence is quite reasonable, she told Kompas newspaper. I will consult with the defendants immediately after this verdict.
+
+        According to court documents, in late December of the previous year, Wowon instructed Solihin and Dede to commit the murders because his wife had allegedly neglected him while he was ill in Cianjur, West Java, and continuously demanded money.
+
+        The idea to poison Ai and her sons with tainted coffee at a boarding house in Bekasi was conceived by Solihin, who was accompanied by Dede. The woman and her children had relocated to Bekasi on January 3.
+
+        The victims and the perpetrators were acquainted, and they had no reason to suspect foul play when served coffee by Solihin at the house.
+
+        Ai's five-year-old daughter, who did not consume the tainted coffee, was rescued by neighbors. Solihin had already returned to Cianjur.Dede was the first to be arrested during the police investigation, subsequently leading to the arrests of the two elderly men.
+
+        Initial police investigations hinted that the trio might have been involved in the deaths of at least eight people, as hidden graves were discovered near the residences of Wowon and Solihin in Cianjur.
+
+        It remains unclear why the murder charges are linked to only three victims.
+
+        The sentencing hearing occurred after multiple delays, with four postponements preceding the proceedings, in addition to five delays prior to the presentation of the prosecution's demand, which requested the death penalty for the trio.
+"
+            android:textSize="10dp"
+            tools:ignore="MissingConstraints"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

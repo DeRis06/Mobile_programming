@@ -47,12 +47,6 @@
         tools:layout_editor_absoluteX="255dp"
         tools:layout_editor_absoluteY="127dp" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/covertestapp"
-        tools:ignore="MissingConstraints" />
     </LinearLayout>
     <LinearLayout
         app:layout_constraintTop_toTopOf="parent"
@@ -78,7 +72,7 @@
         android:id="@+id/imageView5"
         android:layout_width="121dp"
         android:layout_height="103dp"
-        app:srcCompat="@drawable/covertestapp"
+        app:srcCompat="@drawable/max"
         tools:ignore="MissingConstraints" />
             <LinearLayout
                 app:layout_constraintTop_toTopOf="parent"
@@ -90,7 +84,7 @@
         android:id="@+id/textView3"
         android:layout_width="208dp"
         android:layout_height="48dp"
-        android:text="Judul"
+        android:text="Max won his third tittles"
         android:textSize="20dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="156dp"
@@ -100,7 +94,7 @@
         android:id="@+id/textView4"
         android:layout_width="204dp"
         android:layout_height="36dp"
-        android:text="Description"
+        android:text="Max Verstappen has just won another championships"
         android:textSize="15dp"
         tools:ignore="MissingConstraints"
         />
@@ -116,7 +110,7 @@
         android:id="@+id/imageView7"
         android:layout_width="116dp"
         android:layout_height="116dp"
-        app:srcCompat="@drawable/covertestapp"
+        app:srcCompat="@drawable/livmu"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="497dp"
         tools:ignore="MissingConstraints" />
@@ -130,8 +124,8 @@
         android:id="@+id/textView5"
         android:layout_width="208dp"
         android:layout_height="48dp"
-        android:text="Judul"
-        android:textSize="20dp"
+        android:text="Liverpool vs Manchester United updates"
+        android:textSize="19dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="153dp"
         tools:layout_editor_absoluteY="497dp" />
@@ -140,7 +134,7 @@
         android:id="@+id/textView6"
         android:layout_width="204dp"
         android:layout_height="36dp"
-        android:text="Description"
+        android:text="MU holds Liverpool to draw"
         android:textSize="15dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="153dp"

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="108dp"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/judulberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="Liverpool vs Manchester United live updates: 0-0 result in Premier League game with Dalot sent off at the death"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/coversports1"
+            android:layout_width="270dp"
+            android:layout_height="118dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/livmu"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/isiberita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liverpool and Manchester United shared the spoils at Anfield after a low-quality match ended in a goalless draw.
+It was the visitors that created the best chance of the match, with Rasmus Hojlund forcing a smart save from Alisson Becker in the second half. That was a rare foray forwards for United, who ceded most of the territory and possession to the hosts.
+Liverpool had passive domination of a tepid first half, and won a succession of corners. Only one forced a save from Andre Onana, as he turned over a header from Virgil van Dijk.
+In the second half, Trent Alexander-Arnold whistled a low drive past the post, with Liverpool mostly forced into shooting from distance. An injury-time red card for Diogo Dalot arrived too late for Liverpool to make the numerical advantage count.
+The draw is Manchester United’s first in the Premier League this season, and will take some pressure of Erik Ten Hag after poor recent performances.
+The point moves Liverpool up to second place in the table, ahead of Aston Villa on goal difference and one point behind leaders Arsenal.
+TALKING POINT
+Is that a line in the sand for Ten Hag? Anfield was a daunting task for United today – they’ve been thumped here on the last two visits and were depleted by injuries and suspensions. It has also been mooted that these players weren’t playing for the manager.
+The point and the defensive rearguard were a defiant response, as they kept a curiously flat Liverpool in check. This is United’s first draw in the Premier League this season, and pushes them up to seventh in the table.Whether they can use this a platform to rise even further is still open to debate. The same problems remain – sloppy play out from the back, a lack of control of the ball in midfield and a misfiring attack – and were evident again today. Some of those problems may resolve themselves as players return from injury, but until then Ten Hag still has work to do to turn United’s campaign around."
+            android:textSize="12dp"
+            tools:ignore="MissingConstraints"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,7 +15,6 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class news_page : AppCompatActivity() {
-    val berita = findViewById<RecyclerView>(R.id.rv_portal)
     private lateinit var ImageView: ImageView
 
     private fun initComponents(){
@@ -24,6 +23,14 @@ class news_page : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.portal)
+        val berita = findViewById<RecyclerView>(R.id.rv_portal)
+        initComponents()
+        val imageClick = ImageView
+
+        imageClick.setOnClickListener{
+            val intent = Intent(this,beranda_user::class.java)
+            startActivity(intent)
+        }
 
         apiconfig.getService().getBerita().enqueue(object: Callback<ResponsePortalBerita>{
             override fun onResponse(call: Call<ResponsePortalBerita>, response: Response<ResponsePortalBerita>) {
@@ -44,13 +51,5 @@ class news_page : AppCompatActivity() {
                 Toast.makeText(applicationContext, t.localizedMessage, Toast.LENGTH_SHORT).show()
             }
         })
-
-        initComponents()
-        val imageClick = ImageView
-
-        imageClick.setOnClickListener{
-            val intent = Intent(this,beranda_user::class.java)
-            startActivity(intent)
-        }
     }
 }
